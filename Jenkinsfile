@@ -16,7 +16,7 @@ stage('Testing') {
        }
        stage('Deploying') {
          steps {
-           echo 'Deploying Stage Running...'
+           echo 'Deploying Stage Executing...'
          }
            
        }
