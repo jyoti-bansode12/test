@@ -23,7 +23,7 @@ stage('Testing') {
    }
     post { 
         always { 
-            echo 'I will always say Hello again!'
+            emailext body: 'pipeline status', subject: 'pipeline', to: 'bansodejyoti0102@gmail.com'
         }
 }
 
